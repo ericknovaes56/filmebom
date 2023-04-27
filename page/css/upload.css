@@ -1,0 +1,83 @@
+.perfils{
+    justify-content: center;
+    align-items: center;
+}
+.uploadbox{
+    width: 100%;
+    max-width: 936px;
+    height: 525px;
+    overflow: hidden;
+    display: flex;
+    background-color: var(--tbackgroundcolor1);
+    border-radius: 30px;
+}
+.uploadbox img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.uploadbox form{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.uploadbox form input{
+    background-color: transparent;
+    border: 1px solid var(--btncolor);
+    height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 999px;
+}
+.img{
+    width: 450px;
+    flex: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img i{
+    position: absolute;
+    color: white;
+    font-size: 90px;
+}
+#file{
+    padding: 13px 30px;
+    cursor: pointer;
+}
+#opcoes{
+    background-color: transparent;
+    border: 1px solid var(--btncolor);
+    height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#opcoes option{
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #151d1d;
+}
+#dodia{
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+#dodia input{
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+}

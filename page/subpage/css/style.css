@@ -1,0 +1,41 @@
+.perfils{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxuser{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+    margin-top: 30px;
+}
+.boxuser form{
+    background-color: var(--tbackgroundcolor1);
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.boxuser form input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid var(--btncolor);
+    color: white;
+    border-radius: 999px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+}
+.boxuser form .btn{
+    background-color: var(--btncolor);
+    cursor: pointer;
+}
